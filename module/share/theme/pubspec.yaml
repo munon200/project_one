@@ -12,6 +12,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  widget:
+    path: ../widget
+  content:
+    path: ../content
+  core:
+    path: ../../layer/core
+  domain:
+    path: ../../layer/domain
 
 ## ========================================================================== ##
 

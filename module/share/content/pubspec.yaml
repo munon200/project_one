@@ -12,6 +12,21 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # Pub.dev
+  flutter_bloc: any
+
+  # Local
+  theme:
+    path: ../theme
+  widget:
+    path: ../widget
+  core:
+    path: ../../layer/core
+  domain:
+    path: ../../layer/domain
 
 ## ========================================================================== ##
 

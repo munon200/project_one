@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:theme/src/constant/color/custom_color_scheme.dart';
-import 'package:theme/src/theme/custom_input_decoration_theme.dart';
-import 'package:theme/src/theme/custom_text_theme.dart';
+import 'package:theme/src/constant/color/app_color_scheme.dart';
+import 'package:theme/src/theme/app_input_decoration_theme.dart';
+import 'package:theme/src/theme/app_text_theme.dart';
 
-class CustomAppTheme {
+class AppTheme {
   static ThemeData get dark => _buildTheme(true);
 
   static ThemeData get light => _buildTheme(false);
@@ -13,17 +13,17 @@ class CustomAppTheme {
 
     if (isDark) {
       data = ThemeData.dark(useMaterial3: true).copyWith(
-        colorScheme: CustomColorScheme.dark,
+        colorScheme: AppColorScheme.dark,
       );
     } else {
       data = ThemeData.light(useMaterial3: true).copyWith(
-        colorScheme: CustomColorScheme.light,
+        colorScheme: AppColorScheme.light,
       );
     }
 
     return data.copyWith(
-      textTheme: CustomTextTheme(),
-      inputDecorationTheme: CustomInputDecorationTheme(),
+      textTheme: AppTextTheme(),
+      inputDecorationTheme: AppInputDecorationTheme(),
     );
   }
 }

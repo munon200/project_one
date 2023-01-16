@@ -1,3 +1,4 @@
+import 'package:content/content.dart';
 import 'package:flutter/material.dart';
 import 'package:theme/theme.dart';
 
@@ -21,8 +22,8 @@ class CustomApp extends StatelessWidget {
       onGenerateRoute: onGenerateRoute,
       // Theme =====
       themeMode: themeMode,
-      theme: CustomAppTheme.light,
-      darkTheme: CustomAppTheme.dark,
+      theme: AppTheme.light,
+      darkTheme: AppTheme.dark,
     );
   }
 }

@@ -1,4 +1,4 @@
-class CustomSpaceSize {
+class AppSpaceSize {
   static double get spacingXXS => 4;
 
   static double get spacingXS => 8;

@@ -1,79 +1,79 @@
 import 'package:flutter/material.dart';
-import 'package:theme/src/constant/size/custom_text_size.dart';
+import 'package:theme/src/constant/size/app_text_size.dart';
 
-class CustomTextTheme extends TextTheme {
+class AppTextTheme extends TextTheme {
   @override
   TextStyle? get displayLarge => super.displayLarge?.copyWith(
-        fontSize: CustomTextSize.displayLarge,
+        fontSize: AppTextSize.displayLarge,
       );
 
   @override
   TextStyle? get displayMedium => super.displayMedium?.copyWith(
-        fontSize: CustomTextSize.displayMedium,
+        fontSize: AppTextSize.displayMedium,
       );
 
   @override
   TextStyle? get displaySmall => super.displaySmall?.copyWith(
-        fontSize: CustomTextSize.displaySmall,
+        fontSize: AppTextSize.displaySmall,
       );
 
   @override
   TextStyle? get headlineLarge => super.headlineLarge?.copyWith(
-        fontSize: CustomTextSize.headlineLarge,
+        fontSize: AppTextSize.headlineLarge,
       );
 
   @override
   TextStyle? get headlineMedium => super.headlineMedium?.copyWith(
-        fontSize: CustomTextSize.headlineMedium,
+        fontSize: AppTextSize.headlineMedium,
       );
 
   @override
   TextStyle? get headlineSmall => super.headlineSmall?.copyWith(
-        fontSize: CustomTextSize.headlineSmall,
+        fontSize: AppTextSize.headlineSmall,
       );
 
   @override
   TextStyle? get titleLarge => super.titleLarge?.copyWith(
-        fontSize: CustomTextSize.titleLarge,
+        fontSize: AppTextSize.titleLarge,
       );
 
   @override
   TextStyle? get titleMedium => super.titleMedium?.copyWith(
-        fontSize: CustomTextSize.titleMedium,
+        fontSize: AppTextSize.titleMedium,
       );
 
   @override
   TextStyle? get titleSmall => super.titleSmall?.copyWith(
-        fontSize: CustomTextSize.titleSmall,
+        fontSize: AppTextSize.titleSmall,
       );
 
   @override
   TextStyle? get bodyLarge => super.bodyLarge?.copyWith(
-        fontSize: CustomTextSize.bodyLarge,
+        fontSize: AppTextSize.bodyLarge,
       );
 
   @override
   TextStyle? get bodyMedium => super.bodyMedium?.copyWith(
-        fontSize: CustomTextSize.bodyMedium,
+        fontSize: AppTextSize.bodyMedium,
       );
 
   @override
   TextStyle? get bodySmall => super.bodySmall?.copyWith(
-        fontSize: CustomTextSize.bodySmall,
+        fontSize: AppTextSize.bodySmall,
       );
 
   @override
   TextStyle? get labelLarge => super.labelLarge?.copyWith(
-        fontSize: CustomTextSize.labelLarge,
+        fontSize: AppTextSize.labelLarge,
       );
 
   @override
   TextStyle? get labelMedium => super.labelMedium?.copyWith(
-        fontSize: CustomTextSize.labelMedium,
+        fontSize: AppTextSize.labelMedium,
       );
 
   @override
   TextStyle? get labelSmall => super.labelSmall?.copyWith(
-        fontSize: CustomTextSize.labelSmall,
+        fontSize: AppTextSize.labelSmall,
       );
 }

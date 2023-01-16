@@ -12,10 +12,16 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
   theme:
     path: ../theme
   content:
     path: ../content
+  core:
+    path: ../../layer/core
+  domain:
+    path: ../../layer/domain
 
 ## ========================================================================== ##
 

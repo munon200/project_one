@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class CustomColorScheme {
+class AppColorScheme {
   static ColorScheme get light => const ColorScheme(
         brightness: Brightness.light,
         primary: Color(0xFF0060AC),
