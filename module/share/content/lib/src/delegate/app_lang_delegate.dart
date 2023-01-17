@@ -13,10 +13,6 @@ class AppLangDelegate {
     return supportedLocales.contains(locale);
   }
 
-  bool shouldReload(covariant LocalizationsDelegate old) {
-    return true;
-  }
-
   AppLang load(Locale locale) {
     switch (locale.languageCode) {
       case 'en':

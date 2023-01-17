@@ -1,4 +1,4 @@
-import 'package:core/src/exception/app_exception.dart';
+import 'package:core/core.dart';
 
 class ConnectException implements AppException {
   final int? code;

@@ -1,6 +1,9 @@
 import 'package:content/src/lang/app_lang.dart';
 
 class AppLangEn extends AppLang {
+  // Common
+  // ===========================================================================
+
   @override
   String get locale => 'en';
 

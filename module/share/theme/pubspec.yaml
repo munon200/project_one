@@ -12,10 +12,17 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  widget:
-    path: ../widget
+
+  # Pub.dev
+  flutter_bloc: any
+
+  # Local
   content:
     path: ../content
+  widget:
+    path: ../widget
+  common:
+    path: ../common
   core:
     path: ../../layer/core
   domain:
@@ -25,3 +32,4 @@ dependencies:
 
 dev_dependencies:
   flutter_lints: ^2.0.0
+

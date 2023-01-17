@@ -12,8 +12,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_localizations:
-    sdk: flutter
 
   # Pub.dev
   flutter_bloc: any
@@ -23,6 +21,8 @@ dependencies:
     path: ../theme
   widget:
     path: ../widget
+  common:
+    path: ../common
   core:
     path: ../../layer/core
   domain:

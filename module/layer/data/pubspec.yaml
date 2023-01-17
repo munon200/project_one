@@ -9,6 +9,11 @@ environment:
 ## ========================================================================== ##
 
 dependencies:
+  # Pub.dev
+  get_it: any
+  dio: any
+
+  # Local
   core:
     path: ../core
   domain:

@@ -1,6 +1,9 @@
 import 'package:content/src/lang/app_lang.dart';
 
 class AppLangVi extends AppLang {
+  // Common
+  // ===========================================================================
+
   @override
   String get locale => 'vi';
 

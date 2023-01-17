@@ -11,6 +11,15 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
+  # Pub.dev
+  get_it: any
+  flutter_bloc: any
+  dio: any
+
+  # Local
+  common:
+    path: module/share/common
   widget:
     path: module/share/widget
   content:

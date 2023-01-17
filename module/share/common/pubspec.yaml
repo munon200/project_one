@@ -1,0 +1,34 @@
+name: common
+publish_to: none
+
+## ========================================================================== ##
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+  flutter: ">=1.17.0"
+
+## ========================================================================== ##
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Pub.dev
+  flutter_bloc: any
+
+  # Local
+  theme:
+    path: ../theme
+  widget:
+    path: ../widget
+  content:
+    path: ../content
+  core:
+    path: ../../layer/core
+  domain:
+    path: ../../layer/domain
+
+## ========================================================================== ##
+
+dev_dependencies:
+  flutter_lints: ^2.0.0

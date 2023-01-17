@@ -1,0 +1,24 @@
+name: project_one
+
+packages:
+  - .
+  - module/layer/*
+  - module/share/*
+
+scripts:
+
+  ## ======================================================================== ##
+  ##                                  Flutter                                 ##
+  ## ======================================================================== ##
+
+  pub-clean:
+    exec: rm -rf pubspec.lock && flutter clean
+
+  pub-get:
+    exec: flutter pub get
+
+  pub-repair:
+    run: flutter pub cache repair
+
+  deep-clean:
+    run: melos pub-clean && melos pub-get

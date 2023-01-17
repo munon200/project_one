@@ -1,8 +1,12 @@
 import 'package:content/content.dart';
-
-import 'app_lang_en.dart';
+import 'package:content/src/bloc/language_cubit.dart';
 
 abstract class AppLang {
+  AppLang of() => LanguageCubit.I.getLanguageFromCache();
+
+  // Common
+  // ===========================================================================
+
   String get locale;
 
   // Date Time

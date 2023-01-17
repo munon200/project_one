@@ -1,4 +1,4 @@
-class AppTextSize {
+class CustomTextSize {
   static double get displayLarge => 57;
 
   static double get displayMedium => 45;

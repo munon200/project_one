@@ -9,6 +9,9 @@ environment:
 ## ========================================================================== ##
 
 dependencies:
+  # Pub.dev
+
+  # Local
   core:
     path: ../core
 

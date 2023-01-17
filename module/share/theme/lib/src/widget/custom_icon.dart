@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class AppIcon extends StatelessWidget {
+class CustomIcon extends StatelessWidget {
   final double? size;
   final Color? iconColor;
   final String? iconPath;
   final String? iconPackage;
   final IconData? iconData;
 
-  const AppIcon({
+  const CustomIcon({
     Key? key,
     this.size,
     this.iconColor,

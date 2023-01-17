@@ -12,12 +12,17 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_localizations:
-    sdk: flutter
+
+  # Pub.dev
+  flutter_bloc: any
+
+  # Local
   theme:
     path: ../theme
   content:
     path: ../content
+  common:
+    path: ../common
   core:
     path: ../../layer/core
   domain:
