@@ -43,9 +43,3 @@ export 'src/network/network_response.dart';
 export 'src/network/network_connection.dart';
 export 'src/network/network_creator.dart';
 export 'src/network/network_guarded.dart';
-
-// Register
-// =============================================================================
-
-export 'src/register/dependency_register.dart';
-export 'src/register/route_register.dart';
